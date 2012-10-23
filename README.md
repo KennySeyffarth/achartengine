@@ -35,9 +35,9 @@ Right now I only build the library. I do not build the demo that is provided on 
 
 
 # Any issues with achartengine?
-If the code on [google-code][source] changes and I have not merged it in to this repository please create an [issue][my issue tracker].
 I am not the developer of achartengine.
 To contact the developers of achartengine please use the [issue-tracker][google-code-tracker] at google code to file bug reports, feature requests or any other feedback directly relating to achartengine.
 
+If the code on [google-code][source] changes and I have not merged it into this repository please create an [issue][my issue tracker] or send me a pull request.
 [my issue tracker]:https://github.com/signed/achartengine/issues
 [google-code-tracker]:http://code.google.com/p/achartengine/issues/list
