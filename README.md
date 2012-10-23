@@ -7,9 +7,10 @@ I just added a pom to build the jar with maven to consume the artifacts in an an
 # Why I did it
 The oldest still unresolved [tickets][ticket] in the chartengin issue tracker is to provide a maven artifacts for others to consume.
 One of the [comments][comment] points to [another mavenized fork][old fork] to build the library.
-For me there where some problems:
-1. it is not up to date
-2. it produces an apklib instead of a jar like the offical releases
+For me there where some problems:  
+
+1. it is not up to date  
+2. it produces an apklib instead of a jar like the offical release
 
 [ticket]: http://code.google.com/p/achartengine/issues/detail?id=4
 [comment]: http://code.google.com/p/achartengine/issues/detail?id=4#c14
