@@ -30,8 +30,10 @@ For me there where some problems:
     </dependency>
 ```
 
-The classifier behind the version number is the svn repository version of the current code in the git repository.
+The [qualifier][maven-version-scheme] behind the version number is the svn repository version of the current code in the git repository.
 Right now I only build the library. I do not build the demo that is provided on google code.
+
+[maven-version-scheme]:http://mojo.codehaus.org/versions-maven-plugin/version-rules.html
 
 
 # Any issues with achartengine?
