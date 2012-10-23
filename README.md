@@ -21,12 +21,13 @@ For me there where some problems:
 2. cd achartengine/trunk/achartengine/
 3. mvn clean install
 4. add the dependency in to your projects pom
-
+```
     <dependency>
         <groupId>org.achartengine</groupId>
         <artifactId>achartengine</artifactId>
         <version>1.0.0-r452</version>
     </dependency>
+```
 
 The classifier behind the version number is the svn repository version of the current code in the git repository.
 Right now I only build the library. I do not build the demo that is provided on google code.
