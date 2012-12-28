@@ -26,6 +26,61 @@ has-props
 
 0b5bfab6-fc16-11dd-ac65-f74f249cfaac
 
+bin
+dir
+
+.settings
+dir
+
+test
+dir
+
+extra
+dir
+
+demo
+dir
+
+.project
+file
+
+
+
+
+2012-10-22T17:46:11.981301Z
+76f6e7c565607f0fecc92b9c6c4f54e6
+2009-06-04T17:50:25.051245Z
+3
+4viewsoft
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+848
+
+src
+dir
+
+res
+dir
+
 build.xml
 file
 
@@ -100,7 +155,7 @@ file
 
 
 
-2012-10-22T17:46:11.981301Z
+2012-12-28T22:07:21.773334Z
 62e175582d651ad4771336338ed109c1
 2012-09-10T08:12:21.746542Z
 441
@@ -165,6 +220,9 @@ dandromereschi@gmail.com
 
 53
 
+lib
+dir
+
 AndroidManifest.xml
 file
 
@@ -198,62 +256,4 @@ dandromereschi@gmail.com
 
 
 1181
-
-lib
-dir
-
-bin
-dir
-
-.settings
-dir
-
-test
-dir
-
-extra
-dir
-
-.project
-file
-
-
-
-
-2012-10-22T17:46:11.981301Z
-76f6e7c565607f0fecc92b9c6c4f54e6
-2009-06-04T17:50:25.051245Z
-3
-4viewsoft
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-848
-
-demo
-dir
-
-src
-dir
-
-res
-dir
 
