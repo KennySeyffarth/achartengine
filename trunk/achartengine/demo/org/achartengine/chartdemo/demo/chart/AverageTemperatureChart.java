@@ -20,6 +20,8 @@ import java.util.List;
 
 import org.achartengine.ChartFactory;
 import org.achartengine.chart.PointStyle;
+import org.achartengine.model.XYMultipleSeriesDataset;
+import org.achartengine.model.XYSeries;
 import org.achartengine.renderer.XYMultipleSeriesRenderer;
 import org.achartengine.renderer.XYSeriesRenderer;
 
@@ -69,8 +71,7 @@ public class AverageTemperatureChart extends AbstractDemoChart {
     values.add(new double[] { 5, 5.3, 8, 12, 17, 22, 24.2, 24, 19, 15, 9, 6 });
     values.add(new double[] { 9, 10, 11, 15, 19, 23, 26, 25, 22, 18, 13, 10 });
     int[] colors = new int[] { Color.BLUE, Color.GREEN, Color.CYAN, Color.YELLOW };
-    PointStyle[] styles = new PointStyle[] { PointStyle.CIRCLE, PointStyle.DIAMOND,
-        PointStyle.TRIANGLE, PointStyle.SQUARE };
+    PointStyle[] styles = new PointStyle[] { PointStyle.CIRCLE, PointStyle.DIAMOND, PointStyle.TRIANGLE, PointStyle.SQUARE };
     XYMultipleSeriesRenderer renderer = buildRenderer(colors, styles);
     int length = renderer.getSeriesRendererCount();
     for (int i = 0; i < length; i++) {
@@ -83,11 +84,16 @@ public class AverageTemperatureChart extends AbstractDemoChart {
     renderer.setShowGrid(true);
     renderer.setXLabelsAlign(Align.RIGHT);
     renderer.setYLabelsAlign(Align.RIGHT);
+    renderer.setYLabelsPadding(10);
     renderer.setZoomButtonsVisible(true);
     renderer.setPanLimits(new double[] { -10, 20, -10, 40 });
     renderer.setZoomLimits(new double[] { -10, 20, -10, 40 });
-    Intent intent = ChartFactory.getLineChartIntent(context, buildDataset(titles, x, values),
-        renderer, "Average temperature");
+    
+    XYMultipleSeriesDataset dataset = buildDataset(titles, x, values);
+    XYSeries series = dataset.getSeriesAt(0);
+    series.addAnnotation("Vacation", 6, 30);
+    Intent intent = ChartFactory.getLineChartIntent(context, dataset, renderer,
+        "Average temperature");
     return intent;
   }
 

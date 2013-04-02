@@ -43,7 +43,17 @@ public class PieSegment implements Serializable {
    * @return true if in segment, false otherwise.
    */
   public boolean isInSegment(double angle) {
-    return angle >= mStartAngle && angle <= mEndAngle;
+    if (angle >= mStartAngle && angle <= mEndAngle) {
+      return true;
+    }
+    double cAngle = angle % 360;
+    double startAngle = mStartAngle;
+    double stopAngle = mEndAngle;
+    while (stopAngle > 360) {
+      startAngle -= 360;
+      stopAngle -= 360;
+    }
+    return cAngle >= startAngle && cAngle <= stopAngle;
   }
 
   protected float getStartAngle() {

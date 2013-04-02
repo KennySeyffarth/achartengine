@@ -16,6 +16,7 @@
 package org.achartengine.renderer;
 
 import java.io.Serializable;
+import java.text.NumberFormat;
 
 import android.graphics.Color;
 import android.graphics.Paint.Align;
@@ -48,6 +49,14 @@ public class SimpleSeriesRenderer implements Serializable {
   private double mGradientStopValue;
   /** The gradient stop color. */
   private int mGradientStopColor;
+  /** If the legend item for this renderer is visible. */
+  private boolean mShowLegendItem = true;
+  /** The chart values format. */
+  private NumberFormat mChartValuesFormat;
+  /** If this is a highlighted slice (pie chart displays slice as exploded). */
+  private boolean mHighlighted;
+  /** If the bounding points to the first and last visible ones should be displayed. */
+  private boolean mDisplayBoundingPoints = true;
 
   /**
    * Returns the series color.
@@ -250,6 +259,78 @@ public class SimpleSeriesRenderer implements Serializable {
   public void setGradientStop(double start, int color) {
     mGradientStopValue = start;
     mGradientStopColor = color;
+  }
+
+  /**
+   * Returns if the legend item for this renderer should be visible.
+   * 
+   * @return the visibility flag for the legend item for this renderer
+   */
+  public boolean isShowLegendItem() {
+    return mShowLegendItem;
+  }
+
+  /**
+   * Sets if the legend item for this renderer should be visible.
+   * 
+   * @param showLegend the visibility flag for the legend item for this renderer
+   */
+  public void setShowLegendItem(boolean showLegend) {
+    mShowLegendItem = showLegend;
+  }
+
+  /**
+   * Returns if the item is displayed highlighted.
+   * 
+   * @return the highlighted flag for the item for this renderer
+   */
+  public boolean isHighlighted() {
+    return mHighlighted;
+  }
+
+  /**
+   * Sets if the item for this renderer should be highlighted. Pie chart is supported for now.
+   * 
+   * @param highlighted the highlighted flag for the item for this renderer
+   */
+  public void setHighlighted(boolean highlighted) {
+    mHighlighted = highlighted;
+  }
+
+  /**
+   * Returns if the bounding points of the first and last visible ones should be displayed.
+   * 
+   * @return the bounding points display
+   */
+  public boolean isDisplayBoundingPoints() {
+    return mDisplayBoundingPoints;
+  }
+
+  /**
+   * Sets if the bounding points of the first and last visible ones should be displayed.
+   * 
+   * @param display the bounding points display
+   */
+  public void setDisplayBoundingPoints(boolean display) {
+    mDisplayBoundingPoints = display;
+  }
+
+  /**
+   * Returns the number format for displaying chart values.
+   * 
+   * @return the number format for chart values
+   */
+  public NumberFormat getChartValuesFormat() {
+    return mChartValuesFormat;
+  }
+
+  /**
+   * Sets the number format for displaying chart values.
+   * 
+   * @param format the number format for chart values
+   */
+  public void setChartValuesFormat(NumberFormat format) {
+    mChartValuesFormat = format;
   }
 
 }

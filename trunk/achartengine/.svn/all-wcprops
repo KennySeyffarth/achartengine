@@ -3,6 +3,12 @@ svn:wc:ra_dav:version-url
 V 36
 /svn/!svn/ver/452/trunk/achartengine
 END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/477/trunk/achartengine/build.xml
+END
 .classpath
 K 25
 svn:wc:ra_dav:version-url
@@ -31,11 +37,5 @@ AndroidManifest.xml
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/!svn/ver/441/trunk/achartengine/AndroidManifest.xml
-END
-build.xml
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/!svn/ver/385/trunk/achartengine/build.xml
+/svn/!svn/ver/473/trunk/achartengine/AndroidManifest.xml
 END

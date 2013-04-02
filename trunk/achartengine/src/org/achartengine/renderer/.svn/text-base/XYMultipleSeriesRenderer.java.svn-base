@@ -15,6 +15,7 @@
  */
 package org.achartengine.renderer;
 
+import java.text.NumberFormat;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -84,6 +85,12 @@ public class XYMultipleSeriesRenderer extends DefaultRenderer {
   private Align xLabelsAlign = Align.CENTER;
   /** The Y axis labels alignment. */
   private Align[] yLabelsAlign;
+  /** The X text label padding. */
+  private float mXLabelsPadding = 0;
+  /** The Y text label padding. */
+  private float mYLabelsPadding = 0;
+  /** The Y axis labels vertical padding. */
+  private float mYLabelsVerticalPadding = 2;
   /** The Y axis alignment. */
   private Align[] yAxisAlign;
   /** The X axis labels color. */
@@ -95,6 +102,10 @@ public class XYMultipleSeriesRenderer extends DefaultRenderer {
    * charts.
    */
   private boolean mXRoundedLabels = true;
+  /** The label format. */
+  private NumberFormat mLabelFormat;
+  /** A constant value for the bar chart items width. */
+  private float mBarWidth = -1;
 
   /**
    * An enum for the XY chart orientation of the X axis.
@@ -729,6 +740,24 @@ public class XYMultipleSeriesRenderer extends DefaultRenderer {
   }
 
   /**
+   * Returns the constant bar chart item width in pixels.
+   * 
+   * @return the bar width
+   */
+  public float getBarWidth() {
+    return mBarWidth;
+  }
+
+  /**
+   * Sets the bar chart item constant width in pixels.
+   * 
+   * @param width width in pixels
+   */
+  public void setBarWidth(float width) {
+    mBarWidth = width;
+  }
+
+  /**
    * Returns the enabled state of the pan on at least one axis.
    * 
    * @return if pan is enabled
@@ -765,7 +794,7 @@ public class XYMultipleSeriesRenderer extends DefaultRenderer {
     mPanXEnabled = enabledX;
     mPanYEnabled = enabledY;
   }
-  
+
   /**
    * Override {@link DefaultRenderer#setPanEnabled(boolean)} so it can be
    * delegated to {@link #setPanEnabled(boolean, boolean)}.
@@ -1131,8 +1160,79 @@ public class XYMultipleSeriesRenderer extends DefaultRenderer {
     yLabelsAlign[scale] = align;
   }
 
+  /**
+   * Returns the X labels padding.
+   * 
+   * @return X labels padding
+   */
+  public float getXLabelsPadding() {
+    return mXLabelsPadding;
+  }
+
+  /**
+   * Sets the X labels padding
+   * 
+   * @param padding the amount of padding between the axis and the label
+   */
+  public void setXLabelsPadding(float padding) {
+    mXLabelsPadding = padding;
+  }
+
+  /**
+   * Returns the Y labels padding.
+   * 
+   * @return Y labels padding
+   */
+  public float getYLabelsPadding() {
+    return mYLabelsPadding;
+  }
+
+  /**
+   * Sets the Y labels vertical padding
+   * 
+   * @param padding the amount of vertical padding
+   */
+  public void setYLabelsVerticalPadding(float padding) {
+    mYLabelsVerticalPadding = padding;
+  }
+
+  /**
+   * Returns the Y labels vertical padding.
+   * 
+   * @return Y labels vertical padding
+   */
+  public float getYLabelsVerticalPadding() {
+    return mYLabelsVerticalPadding;
+  }
+
+  /**
+   * Sets the Y labels padding
+   * 
+   * @param padding the amount of padding between the axis and the label
+   */
+  public void setYLabelsPadding(float padding) {
+    mYLabelsPadding = padding;
+  }
+
+  /**
+   * Returns the number format for displaying labels.
+   * 
+   * @return the number format for labels
+   */
+  public NumberFormat getLabelFormat() {
+    return mLabelFormat;
+  }
+
+  /**
+   * Sets the number format for displaying labels.
+   * 
+   * @param format the number format for labels
+   */
+  public void setLabelFormat(NumberFormat format) {
+    mLabelFormat = format;
+  }
+
   public int getScalesCount() {
     return scalesCount;
   }
-
 }

@@ -1,19 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/415/trunk/achartengine/src/org/achartengine/util
-END
-IndexXYMap.java
-K 25
-svn:wc:ra_dav:version-url
-V 78
-/svn/!svn/ver/414/trunk/achartengine/src/org/achartengine/util/IndexXYMap.java
-END
-MathHelper.java
-K 25
-svn:wc:ra_dav:version-url
-V 78
-/svn/!svn/ver/415/trunk/achartengine/src/org/achartengine/util/MathHelper.java
+/svn/!svn/ver/509/trunk/achartengine/src/org/achartengine/util
 END
 package.html
 K 25
@@ -26,4 +14,16 @@ K 25
 svn:wc:ra_dav:version-url
 V 75
 /svn/!svn/ver/413/trunk/achartengine/src/org/achartengine/util/XYEntry.java
+END
+IndexXYMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/509/trunk/achartengine/src/org/achartengine/util/IndexXYMap.java
+END
+MathHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/505/trunk/achartengine/src/org/achartengine/util/MathHelper.java
 END

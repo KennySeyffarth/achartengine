@@ -1,14 +1,14 @@
 10
 
 dir
-452
+510
 http://achartengine.googlecode.com/svn/trunk/achartengine/src/org/achartengine/chart
 http://achartengine.googlecode.com/svn
 
 
 
-2012-09-10T19:39:32.298170Z
-452
+2013-02-27T12:21:22.098321Z
+508
 dandromereschi@gmail.com
 
 
@@ -26,17 +26,51 @@ dandromereschi@gmail.com
 
 0b5bfab6-fc16-11dd-ac65-f74f249cfaac
 
+PieChart.java
+file
+
+
+
+
+2013-04-02T18:36:19.049767Z
+69bdf7b07897e7ac584094ad679981cb
+2013-02-16T13:56:27.917972Z
+506
+dandromereschi@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5997
+
 PieSegment.java
 file
 
 
 
 
-2012-10-22T17:46:11.825301Z
-dcd9a0dfee381df3c219e83b7903066b
-2012-05-11T06:18:42.072206Z
-383
-dandromereschi
+2013-04-02T18:36:19.049767Z
+46907147447c7cb95f6b5265e959d2e5
+2013-01-24T13:39:53.862341Z
+489
+dandromereschi@gmail.com
 
 
 
@@ -58,49 +92,15 @@ dandromereschi
 
 
 
-1716
-
-RangeStackedBarChart.java
-file
-
-
-
-
-2012-10-22T17:46:11.829301Z
-e1cd93dd08cbc56a0096678fd5bae61d
-2012-05-11T06:18:42.072206Z
-383
-dandromereschi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-931
+1985
 
 ClickableArea.java
 file
+452
 
 
 
-
-2012-10-22T17:46:11.829301Z
+2013-04-02T16:52:11.250023Z
 a5bc78d929e3d663505e2c78ece92a6a
 2012-01-04T20:26:52.297015Z
 323
@@ -128,14 +128,14 @@ dandromereschi
 
 1088
 
-RangeBarChart.java
+RangeStackedBarChart.java
 file
+452
 
 
 
-
-2012-10-22T17:46:11.829301Z
-3fc157096ff164adf75cb205267f3713
+2013-04-02T16:52:11.250023Z
+e1cd93dd08cbc56a0096678fd5bae61d
 2012-05-11T06:18:42.072206Z
 383
 dandromereschi
@@ -160,7 +160,41 @@ dandromereschi
 
 
 
-4960
+931
+
+RangeBarChart.java
+file
+
+
+
+
+2013-04-02T18:36:19.053767Z
+fb4d12432e42ff9ef24f362389476b57
+2013-02-20T08:26:36.128226Z
+507
+dandromereschi@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5128
 
 LineChart.java
 file
@@ -168,11 +202,11 @@ file
 
 
 
-2012-10-22T17:46:11.829301Z
-91032a117b0a02ecb38a17b9eb28ded3
-2012-06-20T12:20:05.133033Z
-433
-dandromereschi
+2013-04-02T18:36:19.053767Z
+61bade07d8ee648a7c280c69801e767c
+2013-02-20T08:26:36.128226Z
+507
+dandromereschi@gmail.com
 
 
 
@@ -194,15 +228,15 @@ dandromereschi
 
 
 
-6075
+8931
 
 RoundChart.java
 file
+452
 
 
 
-
-2012-10-22T17:46:11.829301Z
+2013-04-02T16:52:11.250023Z
 56cb029e889d730c75758ecd452fd510
 2012-06-20T12:20:34.720585Z
 435
@@ -232,11 +266,11 @@ dandromereschi
 
 PointStyle.java
 file
+452
 
 
 
-
-2012-10-22T17:46:11.829301Z
+2013-04-02T16:52:11.250023Z
 baf187bbebf904b37eae8b6141ce2f66
 2012-05-11T06:18:42.072206Z
 383
@@ -270,11 +304,11 @@ file
 
 
 
-2012-10-22T17:46:11.829301Z
-de7669bcc529fe76337bc69e57919df9
-2012-01-05T20:25:48.439873Z
-331
-dandromereschi
+2013-04-02T18:36:19.053767Z
+fc5e851077057dacf24f090b772854b5
+2013-02-20T08:26:36.128226Z
+507
+dandromereschi@gmail.com
 
 
 
@@ -296,15 +330,15 @@ dandromereschi
 
 
 
-5302
+5385
 
 package.html
 file
+452
 
 
 
-
-2012-10-22T17:46:11.829301Z
+2013-04-02T16:52:11.250023Z
 afda9b35f0e103b284bc26cf6ac18e73
 2009-06-04T17:50:25.051245Z
 3
@@ -338,11 +372,11 @@ file
 
 
 
-2012-10-22T17:46:11.829301Z
-a406279b4d3f624e41b95a0712540762
-2012-01-05T20:30:14.759181Z
-334
-dandromereschi
+2013-04-02T18:36:19.053767Z
+3a6e4dd1581018cedd0ea1f5642f0c0b
+2013-01-09T11:47:14.909619Z
+470
+dandromereschi@gmail.com
 
 
 
@@ -364,7 +398,7 @@ dandromereschi
 
 
 
-3838
+3920
 
 DoughnutChart.java
 file
@@ -372,11 +406,11 @@ file
 
 
 
-2012-10-22T17:46:11.829301Z
-f8f09162d1d778c130612db832df0b7e
-2012-06-16T14:45:37.298374Z
-430
-dandromereschi
+2013-04-02T18:36:19.053767Z
+a84158cb1edaf200601d1858b3a14a37
+2013-01-08T16:28:53.872822Z
+461
+dandromereschi@gmail.com
 
 
 
@@ -398,7 +432,7 @@ dandromereschi
 
 
 
-6038
+6045
 
 TimeChart.java
 file
@@ -406,11 +440,11 @@ file
 
 
 
-2012-10-22T17:46:11.829301Z
-d6f8ba27c52f0f8c0294c7c4df27d123
-2012-06-13T11:40:09.486674Z
-424
-dandromereschi
+2013-04-02T18:36:19.053767Z
+e2b4d37aba52484812656e55869251cb
+2013-02-12T17:15:08.713349Z
+503
+dandromereschi@gmail.com
 
 
 
@@ -432,15 +466,15 @@ dandromereschi
 
 
 
-7483
+7528
 
 PieMapper.java
 file
+452
 
 
 
-
-2012-10-22T17:46:11.833301Z
+2013-04-02T16:52:11.250023Z
 69b5cfc6f782c113288b92fef67dfaa1
 2012-05-11T06:18:42.072206Z
 383
@@ -474,11 +508,11 @@ file
 
 
 
-2012-10-22T17:46:11.829301Z
-56348d4b0bfeac312d6a26de95bc4281
-2012-07-11T10:53:07.145447Z
-439
-dandromereschi
+2013-04-02T18:36:19.053767Z
+859ab286dda1651361b31a8e5b7a4f80
+2013-02-27T12:21:22.098321Z
+508
+dandromereschi@gmail.com
 
 
 
@@ -500,7 +534,7 @@ dandromereschi
 
 
 
-37023
+39378
 
 CombinedXYChart.java
 file
@@ -508,11 +542,11 @@ file
 
 
 
-2012-10-22T17:46:11.833301Z
-74203d9dc9b4062e0d9b2408ca41f542
-2012-05-11T06:18:42.072206Z
-383
-dandromereschi
+2013-04-02T18:36:19.053767Z
+a8f42cbfa075e93b5d7a64996b683a3a
+2013-02-20T08:26:36.128226Z
+507
+dandromereschi@gmail.com
 
 
 
@@ -534,7 +568,7 @@ dandromereschi
 
 
 
-6687
+6718
 
 AbstractChart.java
 file
@@ -542,10 +576,10 @@ file
 
 
 
-2012-10-22T17:46:11.833301Z
-2696cd8559770ae21c3e58aebee29e54
-2012-09-10T08:11:42.894702Z
-440
+2013-04-02T18:36:19.053767Z
+ec3b14e67b9319ed03d92bcf31960d56
+2013-01-16T15:20:43.555325Z
+484
 dandromereschi@gmail.com
 
 
@@ -568,7 +602,7 @@ dandromereschi@gmail.com
 
 
 
-16977
+18864
 
 BarChart.java
 file
@@ -576,10 +610,10 @@ file
 
 
 
-2012-10-22T17:46:11.833301Z
-dd6bae18c5c091189bc2b24906cde443
-2012-09-10T19:39:32.298170Z
-452
+2013-04-02T18:36:19.053767Z
+1d771792ebe095194723a4400453e883
+2013-02-20T08:26:36.128226Z
+507
 dandromereschi@gmail.com
 
 
@@ -602,7 +636,7 @@ dandromereschi@gmail.com
 
 
 
-11832
+12205
 
 ScatterChart.java
 file
@@ -610,11 +644,11 @@ file
 
 
 
-2012-10-22T17:46:11.833301Z
-1d18e60169999e12289d25ac90c325ca
-2012-05-11T06:18:42.072206Z
-383
-dandromereschi
+2013-04-02T18:36:19.053767Z
+b1ec82cc3d5820298693600147f0dd14
+2013-02-20T08:26:36.128226Z
+507
+dandromereschi@gmail.com
 
 
 
@@ -636,15 +670,15 @@ dandromereschi
 
 
 
-8905
+9308
 
 DialChart.java
 file
+452
 
 
 
-
-2012-10-22T17:46:11.833301Z
+2013-04-02T16:52:11.250023Z
 15a0203430a737aba9b86b65c31efd25
 2012-01-04T20:26:52.297015Z
 323
@@ -671,38 +705,4 @@ dandromereschi
 
 
 9007
-
-PieChart.java
-file
-
-
-
-
-2012-10-22T17:46:11.825301Z
-545a808bd2b1f8288e51765ea95e40f4
-2012-06-16T14:45:37.298374Z
-430
-dandromereschi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4884
 

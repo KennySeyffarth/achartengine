@@ -104,7 +104,7 @@ public class TimeChart extends LineChart {
           canvas
               .drawLine(xLabel, bottom, xLabel, bottom + mRenderer.getLabelsTextSize() / 3, paint);
           drawText(canvas, format.format(new Date(label)), xLabel,
-              bottom + mRenderer.getLabelsTextSize() * 4 / 3, paint, mRenderer.getXLabelsAngle());
+              bottom + mRenderer.getLabelsTextSize() * 4 / 3 + mRenderer.getXLabelsPadding(), paint, mRenderer.getXLabelsAngle());
         }
         if (showGridY) {
           paint.setColor(mRenderer.getGridColor());
@@ -152,6 +152,7 @@ public class TimeChart extends LineChart {
     return TYPE;
   }
 
+  @Override
   protected List<Double> getXLabels(double min, double max, int count) {
     final List<Double> result = new ArrayList<Double>();
     if (!mRenderer.isXRoundedLabels()) {

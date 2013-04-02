@@ -1,15 +1,15 @@
 10
 
 dir
-452
+510
 http://achartengine.googlecode.com/svn/trunk/achartengine/res
 http://achartengine.googlecode.com/svn
 
 
 
-2011-07-27T15:15:33.029022Z
-301
-dandromereschi
+2013-02-08T11:30:29.841275Z
+499
+dandromereschi@gmail.com
 
 
 
@@ -26,6 +26,12 @@ dandromereschi
 
 0b5bfab6-fc16-11dd-ac65-f74f249cfaac
 
+drawable-mdpi
+dir
+
+layout
+dir
+
 values
 dir
 
@@ -33,11 +39,5 @@ drawable-hdpi
 dir
 
 drawable-ldpi
-dir
-
-drawable-mdpi
-dir
-
-layout
 dir
 

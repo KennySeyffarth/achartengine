@@ -1,14 +1,14 @@
 10
 
 dir
-452
+510
 http://achartengine.googlecode.com/svn/trunk/achartengine/src/org/achartengine
 http://achartengine.googlecode.com/svn
 
 
 
-2012-09-10T19:39:32.298170Z
-452
+2013-03-20T14:17:48.218522Z
+510
 dandromereschi@gmail.com
 
 
@@ -26,13 +26,16 @@ dandromereschi@gmail.com
 
 0b5bfab6-fc16-11dd-ac65-f74f249cfaac
 
+util
+dir
+
 package.html
 file
+452
 
 
 
-
-2012-10-22T17:46:11.953301Z
+2013-04-02T16:52:11.250023Z
 9fb695cf278a5af7fca9702f6b5a7cee
 2009-06-04T17:50:25.051245Z
 3
@@ -62,11 +65,11 @@ file
 
 TouchHandlerOld.java
 file
+452
 
 
 
-
-2012-10-22T17:46:11.949301Z
+2013-04-02T16:52:11.246023Z
 d4e7d77dce881db40ecf9bb88c8b9dee
 2012-05-12T12:26:03.105736Z
 417
@@ -106,11 +109,11 @@ file
 
 
 
-2012-10-22T17:46:11.949301Z
-9b63141541a0a9f777a24bf7ffc00fd3
-2012-07-11T10:18:21.905868Z
-437
-dandromereschi
+2013-04-02T18:36:19.097767Z
+6f947cfc14e11910b05f8cf212b8301b
+2013-02-01T17:13:06.381983Z
+498
+dandromereschi@gmail.com
 
 
 
@@ -132,7 +135,7 @@ dandromereschi
 
 
 
-6412
+6496
 
 chart
 dir
@@ -146,11 +149,11 @@ file
 
 
 
-2012-10-22T17:46:11.949301Z
-ac64734926e859f45470e0f81e7ebf81
-2012-05-12T12:26:23.042752Z
-420
-dandromereschi
+2013-04-02T18:36:19.097767Z
+eb4629922c59c8c77fd5a8f9f925fa13
+2013-01-09T13:36:30.420188Z
+471
+dandromereschi@gmail.com
 
 
 
@@ -172,18 +175,18 @@ dandromereschi
 
 
 
-10109
+10208
 
 renderer
 dir
 
 GraphicalActivity.java
 file
+452
 
 
 
-
-2012-10-22T17:46:11.949301Z
+2013-04-02T16:52:11.246023Z
 067e22b3c62bb6a1a3a104120d67a457
 2012-05-18T15:35:29.301121Z
 422
@@ -217,10 +220,10 @@ file
 
 
 
-2012-10-22T17:46:11.949301Z
-6f5e1ed182222217c8930e462fcb53e1
-2012-09-10T19:36:59.971585Z
-448
+2013-04-02T18:36:19.097767Z
+31323ff4e9221a711184a60258037663
+2013-01-08T13:18:43.607645Z
+458
 dandromereschi@gmail.com
 
 
@@ -243,15 +246,15 @@ dandromereschi@gmail.com
 
 
 
-30759
+30753
 
 ITouchHandler.java
 file
+452
 
 
 
-
-2012-10-22T17:46:11.949301Z
+2013-04-02T16:52:11.246023Z
 dd72b3ee98ed1f36affdaa65c0ccd8a0
 2012-09-10T19:37:17.966558Z
 449
@@ -278,7 +281,4 @@ dandromereschi@gmail.com
 
 
 1622
-
-util
-dir
 
